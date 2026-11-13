@@ -50,8 +50,4 @@ else:
         else:
             st.success(f"Predicted Weather Class: **{prediction}**")
 """
-
-with open('/content/app.py', 'w') as f:
-    f.write(app_py_content.strip())
-
 print("Saved updated /content/app.py with Yes/No interactive selection inputs")
