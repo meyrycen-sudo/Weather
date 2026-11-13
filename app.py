@@ -1,4 +1,4 @@
-app_py_content = """import streamlit as st
+import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
@@ -49,5 +49,5 @@ else:
             st.success(f"Predicted Weather Status: **{decoded_pred}**")
         else:
             st.success(f"Predicted Weather Class: **{prediction}**")
-"""
+
 print("Saved updated /content/app.py with Yes/No interactive selection inputs")
